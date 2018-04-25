@@ -46,39 +46,3 @@ function fixNav() {
 
 window.addEventListener('scroll', fixNav);
 
-const triggers = document.querySelectorAll('li.dropdown > a.nav-link');
-  //const background  = document.querySelector('.dropdownBackground');
-const nav  = document.querySelector('#top');
-const dropdownContainer = document.querySelector('.dropdown-menu > .container');
-
-  function handleEnter() {
-    //console.log('hello');
-    // this.classList.add('trigger-enter');
-    // setTimeout(() => this.classList.contains('trigger-enter') && this.classList.add('trigger-enter-active'), 150);
-    // background.classList.add('open');
-    //const dropdownContainer = document.querySelector('.dropdown-menu > div.container');
-    const dropdown = document.querySelector('.dropdown-menu');
-    // dropdown.classList.add('show');
-    // var x, y;
-
-    // x = dropdown.getBoundingClientRect().width;
-    // y = dropdown.getBoundingClientRect().height;
-    const dropdownCoords = dropdownContainer.getBoundingClientRect();
-    //console.log(x, y);
-    
-
-    const coords = {
-        y: dropdownCoords.height,
-        x: dropdownCoords.width
-    };
-    console.log(x,y);
-    dropdown.style.setProperty('width', coords.x+'px');
-    dropdown.style.setProperty('height', coords.y+'px');
-  }
-//   function handleLeave() {
-//     this.classList.remove('trigger-enter', 'trigger-enter-active');
-//     background.classList.remove('open');
-//   }
-
-triggers.forEach(trigger => trigger.addEventListener('mouseenter', handleEnter));
-  //triggers.forEach(trigger => trigger.addEventListener('mouseleave', handleLeave));

@@ -72,7 +72,7 @@ p, h1, h2, h3, h4, h5, h6, input, select, textarea, li, span, small {
     transform: translateX(-50%) !important;
 }
 
-.dropdown-item:hover,
+.dropdown-item:hover span,
 .dropdown-item:hover h5,
 .dropdown-item:hover p {
     color: #333 !important;
