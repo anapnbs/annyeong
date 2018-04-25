@@ -1,3 +1,15 @@
+/* Font Settings */
+/* @font-face {
+    font-family: 'Jeongum';
+    font-style: normal;
+    font-weight: 400;
+    src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/seoul/Jeongum/Jeongum.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/seoul/Jeongum/Jeongum.woff') format('woff');
+}
+
+p, h1, h2, h3, h4, h5, h6, input, select, textarea, li, span, small {
+    font-family: 'Jeongum', serif;
+} */
+
 /* Generalized Layouts  */
 .section-content {
     padding-top: 4rem;
@@ -51,7 +63,7 @@
 }
 
 .navbar .dropdown-wide .dropdown-menu.w-100 {
-    margin-top: -1.2rem;
+    margin-top: -1rem;
   }
 
 .navbar .dropdown-wide .dropdown-menu.w-75 {
