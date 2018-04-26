@@ -25,10 +25,7 @@ function topFunction() {
 }
 
 // ScrolltoTop smoothly
-$('#scrolltoTop').click(function(){
-  $("html, body").animate({ scrollTop: 0 }, 600);
-  return false;
-});
+scrolltoTop.addEventListener('click', () => window.scroll({top:0, behavior:'smooth'}));
 
 /* Fixed Submenu in Page */
 const subNav = document.querySelector('#pageSubmenu');
