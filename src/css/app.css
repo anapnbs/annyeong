@@ -11,6 +11,11 @@ html, div, p, h1, h2, h3, h4, h5, h6, input, select, textarea, li, span, small {
 }
 
 /* Generalized Layouts  */
+html {
+    height: 100vh; /* set viewport constraint */
+    min-height: 100%; /* enforce height */
+}
+
 .section-content {
     padding-top: 4rem;
     padding-bottom: 4rem;
