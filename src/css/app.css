@@ -10,12 +10,15 @@ html, div, p, h1, h2, h3, h4, h5, h6, input, select, textarea, li, span, small {
     font-family: 'Jeongum', serif;
 }
 
-/* Generalized Layouts  */
-html {
-    height: 100vh; /* set viewport constraint */
-    min-height: 100%; /* enforce height */
+.lime-text {
+    color: #f9fbe7;
 }
 
+.indigo-bg {
+    background-color: #1a237e;
+}
+
+/* Generalized Layouts  */
 .section-content {
     padding-top: 4rem;
     padding-bottom: 4rem;
